@@ -1,0 +1,17 @@
+# File name extension
+*.pyc
+.idea
+
+# Folders and files
+__pycache__/
+/.pytest-cache
+db.sqlite3
+.pre-commit-config.yaml
+flake8
+pyproject.toml
+setup.cfg
+pytest.html
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
+SP
